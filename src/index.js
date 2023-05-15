@@ -27,11 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   createAlarmClockButtons('section1');
   clock('clock', '#habilitar-reloj', '#deshabilitar-reloj');
   alarm('../src/assets/a.mp3', '#activar-alarma', '#desactivar-alarma');
-  countdown(
-    'countdown',
-    '2023, 5, 1 10:19',
-    'Armo el portfolio y consigo empleo tech',
-  );
+  countdown('countdown', '2024, 1, 13 00:00', 'My birthday!');
   scrollTop('.top', '#section1');
   responsiveMedia(
     'youtube',
